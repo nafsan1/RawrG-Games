@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+string back
+string bad_request
+string check_your_connection
+string close
+string exit
+string invalid_api_key
+string not_found
+string request_timeout
+string retry
+string something_went_wrong
+string the_server_is_unreachable
+string unexpected_error

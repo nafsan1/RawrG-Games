@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/snackbar_error.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/snackbar_error.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_favorite.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/fragment_favorite.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_layout_recomendation.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/item_layout_recomendation.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_detail_movies.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/activity_detail_movies.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/load_state_footer.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/load_state_footer.xml"
+    },
+    {
+        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_layout.xml",
+        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/item_layout.xml"
+    }
+]
