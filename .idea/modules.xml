@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Movies.iml" filepath="$PROJECT_DIR$/.idea/modules/Movies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Movies.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Movies.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Movies.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Movies.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Movies.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Movies.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Movies.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Movies.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Movies.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/Movies.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Movies.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Movies.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Movies.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Movies.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Movies.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Movies.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Movies.core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Movies.core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Movies.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Movies.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Movies.core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Movies.core.unitTest.iml" />
+    </modules>
+  </component>
+</project>
