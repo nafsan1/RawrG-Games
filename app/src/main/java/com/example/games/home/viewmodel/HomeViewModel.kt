@@ -1,17 +1,17 @@
-package com.example.movies.home.viewmodel
+package com.example.games.home.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
-import com.example.core.use_case.MoviesUseCase
+import com.example.core.use_case.GamesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
 class HomeViewModel @Inject constructor(
-    private val moviesUseCase: MoviesUseCase
+    private val useCase: GamesUseCase
 ) : ViewModel() {
 
-    fun getAllMovie() =
-        moviesUseCase.getAllMovie.invoke().asLiveData()
+    fun getGames() =
+        useCase.getAllGames.invoke().asLiveData()
 
 }

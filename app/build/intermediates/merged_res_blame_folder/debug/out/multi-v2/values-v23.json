@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/c4cd3bdb160049279d40ff83823ea9c7/transformed/appcompat-1.4.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/07f5f1deb2d1c66f938f9580331d6a58/transformed/appcompat-1.4.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/573a81c6acbd7e1b1c89352b8b103606/transformed/material-1.4.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/a186d3e63e023056f1495358e8398737/transformed/material-1.4.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -34,7 +34,7 @@
                     }
                 },
                 {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/666aabc924fbbd9f4370d6547b6d0de4/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/5709c0ba6f51fe7429e94957194fdf2e/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

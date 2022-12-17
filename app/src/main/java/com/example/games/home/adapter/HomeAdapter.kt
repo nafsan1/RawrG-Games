@@ -1,33 +1,31 @@
-package com.example.movies.home.adapter
+package com.example.games.home.adapter
 
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import coil.transform.CircleCropTransformation
-import com.example.core.domain.model.Movies
-import com.example.core.util.APIPICTUREMOVIE_SMALL
-import com.example.movies.databinding.ItemLayoutMoviesBinding
-
+import com.example.core.domain.model.Games
+import com.example.games.databinding.ItemLayoutBinding
 
 class HomeAdapter constructor(val listener: Listener) :
-    PagingDataAdapter<Movies, HomeAdapter.CounselorViewHolder>(WATCHLIST_COMPARATOR) {
+    PagingDataAdapter<Games, HomeAdapter.ViewHolder>(WATCHLIST_COMPARATOR) {
 
     interface Listener {
-        fun onItemClick(data: Movies)
+        fun onItemClick(data: Games)
     }
 
-    inner class CounselorViewHolder(private val binding: ItemLayoutMoviesBinding) :
+    inner class ViewHolder(private val binding: ItemLayoutBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(data: Movies, position: Int) {
+        @SuppressLint("SetTextI18n")
+        fun bind(data: Games) {
             binding.apply {
-                txtDate.setText(data.release_date)
-                txtTitle.setText(data.title)
-                txtOverview.setText(data.overview)
-                imageView.load("$APIPICTUREMOVIE_SMALL${data.poster_path}") {
+                txtDate.setText("Release Date: "+data.released)
+                txtTitle.setText(data.name)
+                imageView.load(data.background_image) {
                     crossfade(true)
                 }
                 itemView.setOnClickListener {
@@ -38,29 +36,29 @@ class HomeAdapter constructor(val listener: Listener) :
     }
 
     companion object {
-        private val WATCHLIST_COMPARATOR = object : DiffUtil.ItemCallback<Movies>() {
-            override fun areItemsTheSame(oldItem: Movies, newItem: Movies) =
-                oldItem.moviesId == newItem.moviesId
+        private val WATCHLIST_COMPARATOR = object : DiffUtil.ItemCallback<Games>() {
+            override fun areItemsTheSame(oldItem: Games, newItem: Games) =
+                oldItem.id == newItem.id
 
-            override fun areContentsTheSame(oldItem: Movies, newItem: Movies) =
+            override fun areContentsTheSame(oldItem: Games, newItem: Games) =
                 oldItem == newItem
         }
     }
 
-    override fun onBindViewHolder(holder: CounselorViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentItem = getItem(position)
         if (currentItem != null) {
-            holder.bind(currentItem, position)
+            holder.bind(currentItem)
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CounselorViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding =
-            ItemLayoutMoviesBinding.inflate(
+            ItemLayoutBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
             )
-        return CounselorViewHolder(binding)
+        return ViewHolder(binding)
     }
 }

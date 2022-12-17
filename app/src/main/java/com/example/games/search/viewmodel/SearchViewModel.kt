@@ -1,4 +1,4 @@
-package com.example.games.home.viewmodel
+package com.example.games.search.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
@@ -7,11 +7,11 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 
 @HiltViewModel
-class HomeViewModel @Inject constructor(
-    private val moviesUseCase: GamesUseCase
+class SearchViewModel @Inject constructor(
+    private val useCase: GamesUseCase
 ) : ViewModel() {
 
-    fun getAllMovie() =
-        moviesUseCase.getAllGames.invoke().asLiveData()
+    fun getSearch(query:String) =
+        useCase.getSearch.invoke(query).asLiveData()
 
 }

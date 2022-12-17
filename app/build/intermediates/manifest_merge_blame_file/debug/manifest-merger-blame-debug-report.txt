@@ -6,132 +6,131 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml
+8-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml
+9-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:6:5-67
-11-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:6:22-64
+11-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:7:5-79
-12-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:7:22-76
+12-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-13-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:8:5-75
-13-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:8:22-72
+13-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:8:5-75
+13-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:8:22-72
 14
 15    <application
-15-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:10:5-37:19
+15-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:10:5-37:19
 16        android:name="com.example.games.App"
-16-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:11:9-45
+16-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:11:9-45
 17        android:allowBackup="true"
-17-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:12:9-35
+17-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:12:9-35
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.8.0] /Users/cuanpro/.gradle/caches/transforms-3/7c8dfdc14bc249b2a94e7241ef128829/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+18-->[androidx.core:core:1.8.0] /Users/cuanpro/.gradle/caches/transforms-3/718a671c40731ef785a0789f815d24dc/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 19        android:dataExtractionRules="@xml/data_extraction_rules"
-19-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:13:9-65
+19-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:13:9-65
 20        android:debuggable="true"
 21        android:fullBackupContent="@xml/backup_rules"
-21-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:14:9-54
+21-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:14:9-54
 22        android:icon="@mipmap/ic_launcher"
-22-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:15:9-43
+22-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:15:9-43
 23        android:label="@string/app_name"
-23-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:16:9-41
+23-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:16:9-41
 24        android:roundIcon="@mipmap/ic_launcher_round"
-24-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:17:9-54
+24-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:17:9-54
 25        android:supportsRtl="true"
-25-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:18:9-35
-26        android:testOnly="true"
-27        android:theme="@style/Theme.Games" >
-27-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:19:9-43
-28        <activity
-28-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:21:9-23:40
-29            android:name="com.example.games.search.ui.SearchActivity"
-29-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:22:13-53
-30            android:exported="false" />
-30-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:23:13-37
-31        <activity
-31-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:24:9-27:62
-32            android:name="com.example.games.detail.ui.DetailActivity"
-32-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:25:13-70
-33            android:exported="false"
-33-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:26:13-37
-34            android:theme="@style/Theme.Games.NoActionBar" />
-34-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:27:13-59
-35        <activity
-35-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:28:9-36:20
-36            android:name="com.example.games.main.ui.MainActivity"
-36-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:29:13-66
-37            android:exported="true" >
-37-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:30:13-36
-38            <intent-filter>
-38-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:31:13-35:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:32:17-69
-39-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:32:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:34:17-77
-41-->/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/AndroidManifest.xml:34:27-74
-42            </intent-filter>
-43        </activity>
-44
-45        <service
-45-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/2bc6634a50483810e8a5f4f767d6d1bf/transformed/room-runtime-2.4.0/AndroidManifest.xml:25:9-28:40
-46            android:name="androidx.room.MultiInstanceInvalidationService"
-46-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/2bc6634a50483810e8a5f4f767d6d1bf/transformed/room-runtime-2.4.0/AndroidManifest.xml:26:13-74
-47            android:directBootAware="true"
-47-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/2bc6634a50483810e8a5f4f767d6d1bf/transformed/room-runtime-2.4.0/AndroidManifest.xml:27:13-43
-48            android:exported="false" />
-48-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/2bc6634a50483810e8a5f4f767d6d1bf/transformed/room-runtime-2.4.0/AndroidManifest.xml:28:13-37
-49
-50        <provider
-50-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/c07f5661ab621bbcee3182dff3ebe6cf/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-51            android:name="androidx.startup.InitializationProvider"
-51-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/c07f5661ab621bbcee3182dff3ebe6cf/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-52            android:authorities="com.example.games.androidx-startup"
-52-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/c07f5661ab621bbcee3182dff3ebe6cf/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-53            android:exported="false" >
-53-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/c07f5661ab621bbcee3182dff3ebe6cf/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-54            <meta-data
-54-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/c07f5661ab621bbcee3182dff3ebe6cf/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-55-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/c07f5661ab621bbcee3182dff3ebe6cf/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-56                android:value="androidx.startup" />
-56-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/c07f5661ab621bbcee3182dff3ebe6cf/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-57            <meta-data
-57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/fc3b2bc5ac35cb440524c3492ba18bda/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/fc3b2bc5ac35cb440524c3492ba18bda/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-59                android:value="androidx.startup" />
-59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/fc3b2bc5ac35cb440524c3492ba18bda/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-60            <meta-data
-60-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:31:13-33:52
-61                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-61-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:32:17-85
-62                android:value="androidx.startup" />
-62-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:33:17-49
-63        </provider>
-64
-65        <receiver
-65-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:36:9-45:20
-66            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-66-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:37:13-76
-67            android:directBootAware="false"
-67-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:38:13-44
-68            android:enabled="true"
-68-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:39:13-35
-69            android:exported="true"
-69-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:40:13-36
-70            android:permission="android.permission.DUMP" >
-70-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:41:13-57
-71            <intent-filter>
-71-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:42:13-44:29
-72                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-72-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:17-91
-72-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/7ea5570efe8cc66800f767e19498783d/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:25-88
-73            </intent-filter>
-74        </receiver>
-75    </application>
-76
-77</manifest>
+25-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:18:9-35
+26        android:theme="@style/Theme.Games" >
+26-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:19:9-43
+27        <activity
+27-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:21:9-23:40
+28            android:name="com.example.games.search.ui.SearchActivity"
+28-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:22:13-53
+29            android:exported="false" />
+29-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:23:13-37
+30        <activity
+30-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:24:9-27:62
+31            android:name="com.example.games.detail.ui.DetailActivity"
+31-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:25:13-70
+32            android:exported="false"
+32-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:26:13-37
+33            android:theme="@style/Theme.Games.NoActionBar" />
+33-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:27:13-59
+34        <activity
+34-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:28:9-36:20
+35            android:name="com.example.games.main.ui.MainActivity"
+35-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:29:13-66
+36            android:exported="true" >
+36-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:30:13-36
+37            <intent-filter>
+37-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:31:13-35:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:32:17-69
+38-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:32:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:34:17-77
+40-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/AndroidManifest.xml:34:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/28a0622f67b0417f511957bdea3f7139/transformed/room-runtime-2.4.0/AndroidManifest.xml:25:9-28:40
+45            android:name="androidx.room.MultiInstanceInvalidationService"
+45-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/28a0622f67b0417f511957bdea3f7139/transformed/room-runtime-2.4.0/AndroidManifest.xml:26:13-74
+46            android:directBootAware="true"
+46-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/28a0622f67b0417f511957bdea3f7139/transformed/room-runtime-2.4.0/AndroidManifest.xml:27:13-43
+47            android:exported="false" />
+47-->[androidx.room:room-runtime:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/28a0622f67b0417f511957bdea3f7139/transformed/room-runtime-2.4.0/AndroidManifest.xml:28:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/8d955f080b6715abfd51a5bbc5fcd95c/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/8d955f080b6715abfd51a5bbc5fcd95c/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+51            android:authorities="com.example.games.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/8d955f080b6715abfd51a5bbc5fcd95c/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/8d955f080b6715abfd51a5bbc5fcd95c/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/8d955f080b6715abfd51a5bbc5fcd95c/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/8d955f080b6715abfd51a5bbc5fcd95c/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/cuanpro/.gradle/caches/transforms-3/8d955f080b6715abfd51a5bbc5fcd95c/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/d4ff4a723750f5d746149a2d2adc9c61/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/d4ff4a723750f5d746149a2d2adc9c61/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/cuanpro/.gradle/caches/transforms-3/d4ff4a723750f5d746149a2d2adc9c61/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+59            <meta-data
+59-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+60-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:32:17-85
+61                android:value="androidx.startup" />
+61-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:33:17-49
+62        </provider>
+63
+64        <receiver
+64-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:36:9-45:20
+65            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+65-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:37:13-76
+66            android:directBootAware="false"
+66-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:38:13-44
+67            android:enabled="true"
+67-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:39:13-35
+68            android:exported="true"
+68-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:40:13-36
+69            android:permission="android.permission.DUMP" >
+69-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:41:13-57
+70            <intent-filter>
+70-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:42:13-44:29
+71                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+71-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:17-91
+71-->[androidx.profileinstaller:profileinstaller:1.0.1] /Users/cuanpro/.gradle/caches/transforms-3/193bd60934fd6f133537da6fe03631b2/transformed/profileinstaller-1.0.1/AndroidManifest.xml:43:25-88
+72            </intent-filter>
+73        </receiver>
+74    </application>
+75
+76</manifest>

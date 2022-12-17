@@ -1,4 +1,4 @@
-package com.example.games.home.adapter
+package com.example.games.search.adapter
 
 
 import android.annotation.SuppressLint
@@ -12,8 +12,8 @@ import com.example.core.domain.model.Games
 import com.example.games.databinding.ItemLayoutBinding
 
 
-class HomeAdapter constructor(val listener: Listener) :
-    PagingDataAdapter<Games, HomeAdapter.ViewHolder>(WATCHLIST_COMPARATOR) {
+class SearchAdapter constructor(val listener: Listener) :
+    PagingDataAdapter<Games, SearchAdapter.ViewHolder>(WATCHLIST_COMPARATOR) {
 
     interface Listener {
         fun onItemClick(data: Games)

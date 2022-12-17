@@ -1,4 +1,4 @@
-package com.example.games.detail_movies.viewmodel
+package com.example.games.detail.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
@@ -15,7 +15,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class DetailViewModel @Inject constructor(
-    private val gamesUseCase: GamesUseCase
+    private val useCase: GamesUseCase
 ) : ViewModel() {
 
     private var job: Job? = null
@@ -27,22 +27,22 @@ class DetailViewModel @Inject constructor(
 
     fun insertMovies(games: Games) {
         viewModelScope.launch {
-            gamesUseCase.insertMovies.invoke(games)
+            useCase.insertGames.invoke(games)
         }
     }
 
     fun deletedMovies(games: Games) {
         viewModelScope.launch {
-            gamesUseCase.deleteGames.invoke(games)
+            useCase.deleteGames.invoke(games)
         }
     }
 
-    fun getFavorite() = gamesUseCase.getFavorite.invoke().asLiveData()
+    fun getFavorite() = useCase.getFavorite.invoke().asLiveData()
 
 
     fun getDetail(id: Int) {
         job = viewModelScope.launch {
-            gamesUseCase.getDetail.invoke(id).onSuccess {
+            useCase.getDetail.invoke(id).onSuccess {
                 onSuccess(it)
             }.onFailure {
                 onError(it)
@@ -54,7 +54,7 @@ class DetailViewModel @Inject constructor(
         _uiState.emit(detail)
     }
 
-    private fun onError(throwable: Throwable) {
+    private fun onError( throwable: Throwable) {
         job?.cancel()
     }
 

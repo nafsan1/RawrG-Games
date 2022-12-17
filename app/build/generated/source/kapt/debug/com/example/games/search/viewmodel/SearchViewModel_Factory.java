@@ -4,34 +4,30 @@ package com.example.games.search.viewmodel;
 import com.example.core.use_case.GamesUseCase;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 
-@ScopeMetadata
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",
     "rawtypes"
 })
 public final class SearchViewModel_Factory implements Factory<SearchViewModel> {
-  private final Provider<GamesUseCase> moviesUseCaseProvider;
+  private final Provider<GamesUseCase> useCaseProvider;
 
-  public SearchViewModel_Factory(Provider<GamesUseCase> moviesUseCaseProvider) {
-    this.moviesUseCaseProvider = moviesUseCaseProvider;
+  public SearchViewModel_Factory(Provider<GamesUseCase> useCaseProvider) {
+    this.useCaseProvider = useCaseProvider;
   }
 
   @Override
   public SearchViewModel get() {
-    return newInstance(moviesUseCaseProvider.get());
+    return newInstance(useCaseProvider.get());
   }
 
-  public static SearchViewModel_Factory create(Provider<GamesUseCase> moviesUseCaseProvider) {
-    return new SearchViewModel_Factory(moviesUseCaseProvider);
+  public static SearchViewModel_Factory create(Provider<GamesUseCase> useCaseProvider) {
+    return new SearchViewModel_Factory(useCaseProvider);
   }
 
-  public static SearchViewModel newInstance(GamesUseCase moviesUseCase) {
-    return new SearchViewModel(moviesUseCase);
+  public static SearchViewModel newInstance(GamesUseCase useCase) {
+    return new SearchViewModel(useCase);
   }
 }

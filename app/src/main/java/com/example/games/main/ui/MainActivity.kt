@@ -1,13 +1,13 @@
-package com.example.movies.main.ui
+package com.example.games.main.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import androidx.fragment.app.Fragment
-import com.example.movies.R
-import com.example.movies.databinding.ActivityMainBinding
-import com.example.movies.favorite.ui.FavoriteFragment
-import com.example.movies.home.ui.HomeFragment
+import com.example.games.R
+import com.example.games.databinding.ActivityMainBinding
+import com.example.games.favorite.ui.FavoriteFragment
+import com.example.games.home.ui.HomeFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -47,14 +47,14 @@ class MainActivity : AppCompatActivity() {
                     fragmentManager.beginTransaction().hide(activeFragment).show(homeFragment)
                         .commit()
                     activeFragment = homeFragment
-                    actionBar?.title = "Movies"
+                    supportActionBar?.title = "Games"
                     return@setOnItemSelectedListener true
                 }
                 R.id.action_favorite -> {
                     fragmentManager.beginTransaction().hide(activeFragment).show(favoriteFragment)
                         .commit()
                     activeFragment = favoriteFragment
-                    actionBar?.title = "Favorite"
+                    supportActionBar?.title = "Favorite"
                     return@setOnItemSelectedListener true
                 }
 

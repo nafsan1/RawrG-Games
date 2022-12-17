@@ -1,49 +1,41 @@
-package com.example.movies.favorite.adapter
+package com.example.games.favorite.adapter
 
 import android.annotation.SuppressLint
-import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.example.core.domain.model.Movies
-import com.example.core.util.APIPICTUREMOVIE_SMALL
-import com.example.movies.databinding.ItemLayoutMoviesBinding
+import com.example.core.domain.model.Games
+import com.example.games.databinding.ItemLayoutBinding
 
 
 class FavoriteAdapter(
-    private val myData: List<Movies>,
+    private val myData: List<Games>,
     private val listener: Listener
 ) :
     RecyclerView.Adapter<FavoriteAdapter.MoviesViewHolder>() {
 
-    inner class MoviesViewHolder(private val binding: ItemLayoutMoviesBinding) :
+    inner class MoviesViewHolder(private val binding: ItemLayoutBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        @SuppressLint("NotifyDataSetChanged")
-        fun bind(data: Movies) {
+        @SuppressLint("NotifyDataSetChanged", "SetTextI18n")
+        fun bind(data: Games) {
             binding.apply {
-                imgFav.bringToFront()
-                imgFav.visibility = View.VISIBLE
-                txtDate.setText(data.release_date)
-                txtTitle.setText(data.title)
-                txtOverview.setText(data.overview)
-                imageView.load("$APIPICTUREMOVIE_SMALL${data.poster_path}") {
+                txtDate.setText("Release Date: "+data.released)
+                txtTitle.setText(data.name)
+                imageView.load(data.background_image) {
                     crossfade(true)
                 }
                 itemView.setOnClickListener {
                     listener.onItemClick(data)
                 }
-                imgFav.setOnClickListener {
-                    listener.onDeleteClick(data)
-                }
+
             }
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MoviesViewHolder {
         val binding =
-            ItemLayoutMoviesBinding.inflate(
+            ItemLayoutBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent,
                 false
@@ -52,7 +44,7 @@ class FavoriteAdapter(
     }
 
     override fun onBindViewHolder(holder: MoviesViewHolder, position: Int) {
-        val data: Movies = myData[position]
+        val data: Games = myData[position]
         holder.bind(data)
     }
 
@@ -60,7 +52,7 @@ class FavoriteAdapter(
 
 
     interface Listener {
-        fun onItemClick(data: Movies)
-        fun onDeleteClick(data: Movies)
+        fun onItemClick(data: Games)
+        fun onDeleteClick(data: Games)
     }
 }

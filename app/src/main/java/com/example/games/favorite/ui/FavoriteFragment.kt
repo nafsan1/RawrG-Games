@@ -1,17 +1,17 @@
-package com.example.movies.favorite.ui
+package com.example.games.favorite.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.core.domain.model.Movies
+import com.example.core.domain.model.Games
 import com.example.core.util.INTENT_DATA
-import com.example.movies.base.BaseFragment
-import com.example.movies.databinding.FragmentFavoriteBinding
-import com.example.movies.detail_movies.ui.DetailMoviesActivity
-import com.example.movies.favorite.adapter.FavoriteAdapter
-import com.example.movies.favorite.viewmodel.FavoriteViewModel
+import com.example.games.base.BaseFragment
+import com.example.games.databinding.FragmentFavoriteBinding
+import com.example.games.detail.ui.DetailActivity
+import com.example.games.favorite.adapter.FavoriteAdapter
+import com.example.games.favorite.viewmodel.FavoriteViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -40,20 +40,20 @@ class FavoriteFragment :
         }
     }
 
-    private fun setupAdapter(data: List<Movies>) = binding.apply {
+    private fun setupAdapter(data: List<Games>) = binding.apply {
         adapter = FavoriteAdapter(myData = data, listener = this@FavoriteFragment)
         recyclerView.layoutManager = LinearLayoutManager(context)
         recyclerView.setHasFixedSize(true)
         recyclerView.adapter = adapter
     }
 
-    override fun onItemClick(data: Movies) {
-        val intent = Intent(requireActivity(), DetailMoviesActivity::class.java)
+    override fun onItemClick(data: Games) {
+        val intent = Intent(requireActivity(), DetailActivity::class.java)
         intent.putExtra(INTENT_DATA, data)
         startActivity(intent)
     }
 
-    override fun onDeleteClick(data: Movies) {
+    override fun onDeleteClick(data: Games) {
         viewModel.deletedMovies(data)
     }
 

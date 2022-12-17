@@ -6,12 +6,8 @@ import com.example.core.use_case.GamesUseCase;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 import javax.inject.Provider;
 
-@ScopeMetadata("dagger.hilt.android.scopes.ViewModelScoped")
-@QualifierMetadata
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",

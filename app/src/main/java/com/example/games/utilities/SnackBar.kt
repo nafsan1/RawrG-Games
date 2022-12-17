@@ -1,10 +1,10 @@
-package com.example.movies.utilities
+package com.example.games.utilities
 
 import android.app.Activity
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
-import com.example.movies.databinding.SnackbarErrorBinding
+import com.example.games.databinding.SnackbarErrorBinding
 import com.google.android.material.snackbar.Snackbar
 
 object SnackBar {

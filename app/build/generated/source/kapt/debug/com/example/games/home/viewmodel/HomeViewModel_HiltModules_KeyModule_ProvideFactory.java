@@ -4,11 +4,7 @@ package com.example.games.home.viewmodel;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
-import dagger.internal.QualifierMetadata;
-import dagger.internal.ScopeMetadata;
 
-@ScopeMetadata
-@QualifierMetadata("dagger.hilt.android.internal.lifecycle.HiltViewModelMap.KeySet")
 @DaggerGenerated
 @SuppressWarnings({
     "unchecked",

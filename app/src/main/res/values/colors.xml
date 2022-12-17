@@ -10,4 +10,8 @@
     <color name="md_grey_400">#BDBDBD</color>
     <color name="md_grey_600">#757575</color>
     <color name="red_darken_24">#8f0638</color>
+    <color name="md_white_1000">#FFFFFF</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="grey_60">#666666</color>
 </resources>

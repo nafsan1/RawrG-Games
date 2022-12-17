@@ -1,4 +1,4 @@
-package com.example.movies.utilities
+package com.example.games.utilities
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -8,11 +8,11 @@ import androidx.paging.LoadState
 import androidx.paging.LoadStateAdapter
 
 import androidx.recyclerview.widget.RecyclerView
-import com.example.movies.databinding.LoadStateFooterBinding
+import com.example.games.databinding.LoadStateFooterBinding
 
 
 class LoadStateAdapter(private val retry: () -> Unit) :
-    LoadStateAdapter<com.example.movies.utilities.LoadStateAdapter.LoadStateViewHolder>() {
+    LoadStateAdapter<com.example.games.utilities.LoadStateAdapter.LoadStateViewHolder>() {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, loadState: LoadState): LoadStateViewHolder {

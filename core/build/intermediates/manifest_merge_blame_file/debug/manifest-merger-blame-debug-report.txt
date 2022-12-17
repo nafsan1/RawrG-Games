@@ -4,8 +4,8 @@
 4
 5    <uses-sdk
 6        android:minSdkVersion="21"
-6-->/Users/cuanpro/AndroidStudioProjects/The Games/core/src/main/AndroidManifest.xml
+6-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/core/src/main/AndroidManifest.xml
 7        android:targetSdkVersion="31" />
-7-->/Users/cuanpro/AndroidStudioProjects/The Games/core/src/main/AndroidManifest.xml
+7-->/Users/cuanpro/AndroidStudioProjects/RawrG-Games/core/src/main/AndroidManifest.xml
 8
 9</manifest>

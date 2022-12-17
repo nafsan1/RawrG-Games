@@ -18,7 +18,6 @@ dimen actionBarSize
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
 dimen appbar_padding_top
-dimen carousel_spacing
 dimen fab_margin
 dimen nav_header_height
 dimen nav_header_vertical_spacing
@@ -70,13 +69,12 @@ id txtMessage
 id txtNotFound
 id txtOverview
 id txtTitle
-layout activity_detail_movies
+layout activity_detail_games
 layout activity_main
 layout activity_search
 layout fragment_favorite
 layout fragment_home
 layout item_layout
-layout item_layout_recomendation
 layout load_state_footer
 layout snackbar_error
 menu menu
@@ -92,6 +90,7 @@ string search_games
 style TagCenterSemiBoldBluePro
 style TagCenterSemiBoldGrey
 style Theme.Games
+style Theme.Games.
 style Theme.Games.NoActionBar
 xml backup_rules
 xml data_extraction_rules

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
+            "outputFile": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml",
             "map": [
                 {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/fb60490c968503a6ac89db629c14adf8/transformed/ui-1.0.1/res/values-hr/values-hr.xml",
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/4bef4203351cc4ddad759d7908e8a9c4/transformed/ui-1.0.1/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/573a81c6acbd7e1b1c89352b8b103606/transformed/material-1.4.0/res/values-hr/values-hr.xml",
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/a186d3e63e023056f1495358e8398737/transformed/material-1.4.0/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,24 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/7c8dfdc14bc249b2a94e7241ef128829/transformed/core-1.8.0/res/values-hr/values-hr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "99",
-                        "startColumns": "4",
-                        "startOffsets": "8374",
-                        "endColumns": "100",
-                        "endOffsets": "8470"
-                    }
-                },
-                {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/c4cd3bdb160049279d40ff83823ea9c7/transformed/appcompat-1.4.0/res/values-hr/values-hr.xml",
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/07f5f1deb2d1c66f938f9580331d6a58/transformed/appcompat-1.4.0/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -71,6 +54,23 @@
                         "startOffsets": "325,430,525,632,718,822,941,1026,1108,1199,1292,1387,1481,1581,1674,1769,1864,1955,2046,2132,2236,2348,2449,2554,2668,2770,2939,8216",
                         "endColumns": "104,94,106,85,103,118,84,81,90,92,94,93,99,92,94,94,90,90,85,103,111,100,104,113,101,168,96,84",
                         "endOffsets": "425,520,627,713,817,936,1021,1103,1194,1287,1382,1476,1576,1669,1764,1859,1950,2041,2127,2231,2343,2444,2549,2663,2765,2934,3031,8296"
+                    }
+                },
+                {
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/718a671c40731ef785a0789f815d24dc/transformed/core-1.8.0/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "99",
+                        "startColumns": "4",
+                        "startOffsets": "8374",
+                        "endColumns": "100",
+                        "endOffsets": "8470"
                     }
                 }
             ]

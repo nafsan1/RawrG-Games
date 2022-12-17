@@ -1,138 +1,134 @@
 [
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_ic_baseline_favorite_border_24.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/menu_menu.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/menu/menu.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/xml_backup_rules.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_fragment_favorite.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/fragment_favorite.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_progress_drawable_blue.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/progress_drawable_blue.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_ic_fav_border_purple.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/ic_fav_border_purple.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_ic_fav_purple.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/ic_fav_purple.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_ic_baseline_home_24.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/ic_baseline_home_24.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_load_state_footer.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/load_state_footer.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_ic_fav_purple.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/ic_fav_purple.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/menu_menu.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/menu/menu.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_bottom_sheet_background.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/bottom_sheet_background.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_activity_search.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/activity_search.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_progress_drawable_blue.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/progress_drawable_blue.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_activity_search.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/activity_search.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_item_layout_recomendation.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/item_layout_recomendation.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_snackbar_error.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/snackbar_error.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_ic_fav_border_purple.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/ic_fav_border_purple.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_snackbar_error.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/snackbar_error.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_load_state_footer.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/load_state_footer.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_bottom_sheet_background.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/bottom_sheet_background.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/xml_backup_rules.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/xml/backup_rules.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_ic_baseline_home_24.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/ic_baseline_home_24.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_ic_search.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/ic_search.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_ic_search.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/ic_search.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_activity_detail_games.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/activity_detail_games.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_fragment_favorite.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/fragment_favorite.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_item_layout.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/item_layout.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_item_layout.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/item_layout.xml"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/layout_activity_detail_movies.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/layout/activity_detail_movies.xml"
-    },
-    {
-        "merged": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/merged_res/debug/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/cuanpro/AndroidStudioProjects/The Games/app/src/main/res/xml/data_extraction_rules.xml"
+        "merged": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/merged_res/debug/layout_fragment_home.xml.flat",
+        "source": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/src/main/res/layout/fragment_home.xml"
     }
 ]

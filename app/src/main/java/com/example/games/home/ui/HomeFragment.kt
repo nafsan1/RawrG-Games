@@ -1,18 +1,22 @@
-package com.example.movies.home.ui
+package com.example.games.home.ui
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.core.domain.model.Movies
-import com.example.movies.base.BaseFragment
-import com.example.movies.databinding.FragmentHomeBinding
-import com.example.movies.home.viewmodel.HomeViewModel
-import com.example.movies.home.adapter.HomeAdapter
-import com.example.movies.home.adapter.LoadStateAdapter
-import com.example.movies.utilities.SnackBar.snackBarError
+import com.example.core.domain.model.Games
+import com.example.core.util.INTENT_DATA
+import com.example.games.base.BaseFragment
+import com.example.games.databinding.FragmentHomeBinding
+import com.example.games.detail.ui.DetailActivity
+import com.example.games.home.viewmodel.HomeViewModel
+import com.example.games.home.adapter.HomeAdapter
+import com.example.games.search.ui.SearchActivity
+import com.example.games.utilities.LoadStateAdapter
+import com.example.games.utilities.SnackBar.snackBarError
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -25,11 +29,20 @@ class HomeFragment:BaseFragment<FragmentHomeBinding>({FragmentHomeBinding.inflat
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupAdapter()
-        getDataMovies()
+        getData()
+        onClick()
     }
 
-    private fun getDataMovies(){
-        viewModel.getAllMovie().observe(requireActivity()){
+    private fun onClick() = binding.apply {
+        etSearch.bringToFront()
+        etSearch.setOnClickListener {
+            val intent = Intent(activity, SearchActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    private fun getData(){
+        viewModel.getGames().observe(requireActivity()){
             adapter.submitData(lifecycle,it)
         }
     }
@@ -40,6 +53,7 @@ class HomeFragment:BaseFragment<FragmentHomeBinding>({FragmentHomeBinding.inflat
             header = LoadStateAdapter { adapter.retry() },
             footer = LoadStateAdapter { adapter.retry() }
         )
+
         binding.recyclerView.layoutManager = LinearLayoutManager(requireActivity())
         binding.recyclerView.itemAnimator?.changeDuration = 0
 
@@ -67,7 +81,9 @@ class HomeFragment:BaseFragment<FragmentHomeBinding>({FragmentHomeBinding.inflat
         }
     }
 
-    override fun onItemClick(data: Movies) {
-
+    override fun onItemClick(data: Games) {
+        val intent = Intent(requireActivity(), DetailActivity::class.java)
+        intent.putExtra(INTENT_DATA, data)
+        startActivity(intent)
     }
 }

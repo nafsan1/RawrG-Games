@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/cuanpro/AndroidStudioProjects/The Games/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "/Users/cuanpro/AndroidStudioProjects/RawrG-Games/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/573a81c6acbd7e1b1c89352b8b103606/transformed/material-1.4.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "source": "/Users/cuanpro/.gradle/caches/transforms-3/a186d3e63e023056f1495358e8398737/transformed/material-1.4.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,4 +1,4 @@
-package com.example.games.detail_movies.ui
+package com.example.games.detail.ui
 
 import android.annotation.SuppressLint
 import android.graphics.PorterDuff
@@ -16,16 +16,16 @@ import com.example.core.domain.enum.FavoriteEnum
 import com.example.core.domain.model.Games
 import com.example.core.util.INTENT_DATA
 import com.example.core.util.fromHtml
-import com.example.games.detail_movies.viewmodel.DetailViewModel
+import com.example.games.detail.viewmodel.DetailViewModel
 import com.example.games.R
-import com.example.games.databinding.ActivityDetailMoviesBinding
+import com.example.games.databinding.ActivityDetailGamesBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class DetailActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityDetailMoviesBinding
+    private lateinit var binding: ActivityDetailGamesBinding
 
     private val viewModel: DetailViewModel by viewModels()
 
@@ -33,7 +33,7 @@ class DetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDetailMoviesBinding.inflate(layoutInflater)
+        binding = ActivityDetailGamesBinding.inflate(layoutInflater)
         setContentView(binding.root)
         getIntentData()
         setFavButton()
