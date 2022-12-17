@@ -10,17 +10,17 @@ import com.example.core.mapper.toGames
 import com.example.core.mapper.toGamesEntity
 import com.example.core.network.service.ApiServices
 import com.example.core.pagination.GamesPagingSource
-import com.example.core.pagination.RecommendPagingSource
+import com.example.core.pagination.SearchPagingSource
 import com.example.core.util.ITEM_PAGE_ADD_WATCHLIST
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
-class MoviesRepositoryImpl(
+class GamesRepositoryImpl(
     private val dao: GamesDao,
     private val api: ApiServices
-) : MoviesRepository {
+) : GamesRepository {
 
-    override fun getAllMovies(): Flow<PagingData<GamesResponse>> {
+    override fun getGames(): Flow<PagingData<GamesResponse>> {
         return Pager(
             PagingConfig(pageSize = ITEM_PAGE_ADD_WATCHLIST, enablePlaceholders = false)
         ) {
@@ -28,28 +28,33 @@ class MoviesRepositoryImpl(
         }.flow
     }
 
-    override fun getRecommendMovies(movieId: Int): Flow<PagingData<GamesResponse>> {
+    override fun getSearch(query: String): Flow<PagingData<GamesResponse>> {
         return Pager(
             PagingConfig(pageSize = ITEM_PAGE_ADD_WATCHLIST, enablePlaceholders = false)
         ) {
-            RecommendPagingSource(api = api,movieId = movieId)
+            SearchPagingSource(api = api,query = query)
         }.flow
     }
 
-    override suspend fun getDetail(id: Int): Result<List<Games>> {
-       return try {
-           val detail = api.getDetail(id = id)
-           Result.success(
-               detail.
-           )
-       }
+    override suspend fun getDetail(id: Int): Result<Games> {
+        return try {
+            val detail = api.getDetail(id = id)
+            Result.success(
+                detail.toGames()
+            )
+        }catch(e: Exception) {
+            e.printStackTrace()
+            Result.failure(e)
+        }
+
     }
 
-    override suspend fun insertMovies(games: Games) {
+
+    override suspend fun insertGames(games: Games) {
         dao.insertGames(games.toGamesEntity())
     }
 
-    override suspend fun deletedMovie(games: Games) {
+    override suspend fun deletedGames(games: Games) {
         dao.deleteGames(games.toGamesEntity())
     }
 

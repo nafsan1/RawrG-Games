@@ -1,8 +1,10 @@
 package com.example.core.use_case
 
-data class MoviesUseCase(
-    val getAllMovie: GetAllMovie,
+data class GamesUseCase(
+    val getAllGames: GetAllGames,
     val getFavorite: GetFavorite,
-    val insertMovies: InsertMovies,
-    val deleteMovies: DeleteMovies
+    val insertGames: InsertGames,
+    val deleteGames: DeleteGames,
+    val getSearch: GetSearch,
+    val getDetail: GetDetail
 )

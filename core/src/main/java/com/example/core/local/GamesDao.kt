@@ -5,7 +5,7 @@ import com.example.core.local.entity.GamesEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
-interface MoviesDao {
+interface GamesDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertGames(gamesEntity: GamesEntity)
 

@@ -5,15 +5,15 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "movies")
-data class MoviesEntity(
+@Entity(tableName = "games")
+data class GamesEntity(
     @PrimaryKey
     @NonNull
-    var id: Int,
-    var moviesId: Int,
-    var title: String,
-    var release_date: String,
-    var poster_path: String,
-    var overview: String,
-    var isFavorite:Boolean = false
+    val id: Int?,
+    val rating: Double,
+    val name: String,
+    val released: String? = "",
+    val background_image: String? = "",
+    val description: String? = "",
+    val isFavorite: Boolean
 )

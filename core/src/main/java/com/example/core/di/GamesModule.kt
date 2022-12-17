@@ -2,10 +2,10 @@ package com.example.core.di
 
 import android.app.Application
 import androidx.room.Room
-import com.example.core.local.MoviesDatabase
+import com.example.core.local.GamesDatabase
 import com.example.core.network.service.ApiServices
-import com.example.core.repository.MoviesRepository
-import com.example.core.repository.MoviesRepositoryImpl
+import com.example.core.repository.GamesRepository
+import com.example.core.repository.GamesRepositoryImpl
 import com.example.core.util.APIMOVIE
 import dagger.Module
 import dagger.Provides
@@ -21,7 +21,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object MoviesModule {
+object GamesModule {
     @Provides
     @Singleton
     fun provideOkhttpClient(): OkHttpClient {
@@ -45,11 +45,11 @@ object MoviesModule {
     }
     @Provides
     @Singleton
-    fun provideTrackerDatabase(app: Application): MoviesDatabase {
+    fun provideTrackerDatabase(app: Application): GamesDatabase {
         return Room.databaseBuilder(
             app,
-            MoviesDatabase::class.java,
-            "movies_db"
+            GamesDatabase::class.java,
+            "games_db"
         ).build()
     }
 
@@ -57,9 +57,9 @@ object MoviesModule {
     @Singleton
     fun provideMoviesRepository(
         api: ApiServices,
-        db: MoviesDatabase
-    ): MoviesRepository {
-        return MoviesRepositoryImpl(
+        db: GamesDatabase
+    ): GamesRepository {
+        return GamesRepositoryImpl(
             dao = db.dao,
             api = api
         )

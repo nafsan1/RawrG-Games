@@ -9,6 +9,6 @@ import com.example.core.local.entity.GamesEntity
     version = 1,
     exportSchema = false
 )
-abstract class MoviesDatabase : RoomDatabase() {
-    abstract val dao: MoviesDao
+abstract class GamesDatabase : RoomDatabase() {
+    abstract val dao: GamesDao
 }

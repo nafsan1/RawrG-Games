@@ -5,15 +5,17 @@ import com.example.core.domain.model.Games
 import com.example.core.domain.model.GamesResponse
 import kotlinx.coroutines.flow.Flow
 
-interface MoviesRepository {
-     fun getAllMovies(
+interface GamesRepository {
+    fun getGames(
     ):Flow<PagingData<GamesResponse>>
-    fun getRecommendMovies(movieId:Int
+    fun getSearch(query: String
     ):Flow<PagingData<GamesResponse>>
 
-    suspend fun getDetail(id:Int):Result<List<Games>>
+    suspend fun getDetail(
+        id: Int,
+    ): Result<Games>
 
-    suspend fun insertMovies(games: Games)
-    suspend fun deletedMovie(games: Games)
+    suspend fun insertGames(games: Games)
+    suspend fun deletedGames(games: Games)
     fun getFavorite(): Flow<List<Games>>
 }

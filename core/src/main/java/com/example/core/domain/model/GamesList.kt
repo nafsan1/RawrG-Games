@@ -2,7 +2,7 @@ package com.example.core.domain.model
 
 import com.squareup.moshi.Json
 
-data class MoviesList(
+data class GamesList(
     @field:Json(name = "results")
-    val movies: List<MoviesResponse>
+    val games: List<GamesResponse>
 )

@@ -10,7 +10,7 @@ import retrofit2.HttpException
 import java.io.IOException
 import java.lang.Exception
 
-class MoviesPagingSource(
+class GamesPagingSource(
     private val api: ApiServices,
 ) : PagingSource<Int, GamesResponse>() {
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int,GamesResponse> {
@@ -18,7 +18,7 @@ class MoviesPagingSource(
         return try {
             val response = api.getGames(page = position)
             val responseData = mutableListOf<GamesResponse>()
-            val data = response.movies
+            val data = response.games
             responseData.addAll(data)
             LoadResult.Page(
                 data = responseData,

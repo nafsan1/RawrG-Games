@@ -10,14 +10,14 @@ import retrofit2.HttpException
 import java.io.IOException
 import java.lang.Exception
 
-class RecommendPagingSource(
+class SearchPagingSource(
     private val api: ApiServices,
-    private val movieId: Int
+    private var query:String
 ) : PagingSource<Int, GamesResponse>() {
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, GamesResponse> {
         val position = params.key ?: WATCHLIST_STARTING_PAGE_INDEX
         return try {
-            val response = api.getGames(page = position)
+            val response = api.getSearch(page = position, query = query)
             val responseData = mutableListOf<GamesResponse>()
             val data = response.games
             responseData.addAll(data)

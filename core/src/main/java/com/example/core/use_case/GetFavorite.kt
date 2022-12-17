@@ -1,13 +1,13 @@
 package com.example.core.use_case
 
-import com.example.core.domain.model.Movies
-import com.example.core.repository.MoviesRepository
+import com.example.core.domain.model.Games
+import com.example.core.repository.GamesRepository
 import kotlinx.coroutines.flow.Flow
 
 class GetFavorite(
-    private val repository: MoviesRepository
+    private val repository: GamesRepository
 ) {
-    operator fun invoke(): Flow<List<Movies>> {
+    operator fun invoke(): Flow<List<Games>> {
         return repository.getFavorite()
     }
 }

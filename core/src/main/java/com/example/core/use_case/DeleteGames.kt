@@ -1,10 +1,10 @@
 package com.example.core.use_case
 
 import com.example.core.domain.model.Games
-import com.example.core.repository.MoviesRepository
+import com.example.core.repository.GamesRepository
 
-class DeleteMovies(private val repository: MoviesRepository) {
+class DeleteGames(private val repository: GamesRepository) {
     suspend operator fun invoke(games:Games){
-        repository.deletedMovie(games)
+        repository.deletedGames(games)
     }
 }

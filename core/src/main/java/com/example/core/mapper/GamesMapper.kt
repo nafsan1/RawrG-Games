@@ -6,37 +6,52 @@ import com.example.core.domain.model.Games
 import com.example.core.domain.model.GamesResponse
 import com.example.core.local.entity.GamesEntity
 
-fun PagingData<GamesResponse>.toMovies(): PagingData<Games> {
+fun PagingData<GamesResponse>.toGames(): PagingData<Games> {
     return map {
         Games(
             id = it.id,
-            title = it.title,
-            release_date = it.release_date,
-            poster_path = it.poster_path,
-            overview = it.overview,
+            rating = it.rating,
+            name = it.name,
+            released = it.released,
+            background_image = it.background_image,
+            description = it.description,
             isFavorite = false
         )
     }
 }
 
-fun GamesEntity.toMovies(): Games {
+fun GamesEntity.toGames(): Games {
     return Games(
         id = id,
-        title = title,
-        release_date = release_date,
-        poster_path = poster_path,
-        overview = overview,
+        rating = rating,
+        name = name,
+        released = released,
+        background_image = background_image,
+        description = description,
         isFavorite = isFavorite
     )
 }
 
-fun Games.toMoviesEntity(): GamesEntity {
+fun GamesResponse.toGames(): Games {
+    return Games(
+        id = id,
+        rating = rating,
+        name = name,
+        released = released,
+        background_image = background_image,
+        description = description,
+        isFavorite = false
+    )
+}
+
+fun Games.toGamesEntity(): GamesEntity {
     return GamesEntity(
         id = id ?: 0,
-        title = title,
-        release_date = release_date ?: "",
-        poster_path = poster_path ?: "",
-        overview = overview,
+        rating = rating,
+        name = name,
+        released = released ?: "",
+        background_image = background_image,
+        description = description,
         isFavorite = true
     )
 }

@@ -14,24 +14,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f771bec5-d520-461b-adde-46624f232286" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.3.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.3.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.3.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/7.3.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/7.3.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/buildSrcjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/buildSrcjar-classes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/libs/buildSrc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/games/detail/viewmodel/DetailViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/games/detail/viewmodel/DetailViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/di/UseCaseModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/di/UseCaseModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/domain/model/Games.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/domain/model/Games.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/domain/model/GamesList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/domain/model/GamesList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/domain/model/GamesResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/domain/model/GamesResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/local/GamesDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/local/GamesDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/local/GamesDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/local/GamesDatabase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/local/entity/GamesEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/local/entity/GamesEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/mapper/GamesMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/mapper/GamesMapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/network/service/ApiServices.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/network/service/ApiServices.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/pagination/GamesPagingSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/pagination/GamesPagingSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/pagination/SearchPagingSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/pagination/SearchPagingSource.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/GamesRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/GamesRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/GamesRepositoryImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/repository/GamesRepositoryImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/DeleteGames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/DeleteGames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GamesUseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GamesUseCase.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetAllGames.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetAllGames.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetDetail.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetDetail.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetFavorite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetFavorite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetSearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/GetSearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/InsertMovies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/com/example/core/use_case/InsertGames.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
